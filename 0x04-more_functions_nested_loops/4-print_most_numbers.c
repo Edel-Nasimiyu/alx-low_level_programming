@@ -5,6 +5,7 @@
  *
  * Return: Always 0.
  */
+int _putchar(char a);
 void print_most_numbers(void)
 {
 	int a;
