@@ -5,7 +5,7 @@
  * @size: size of both width and length
  * Return: a square made of '#'
  */
-int _putchar(char)
+
 void print_square(int size)
 {
 	int co, ro;
