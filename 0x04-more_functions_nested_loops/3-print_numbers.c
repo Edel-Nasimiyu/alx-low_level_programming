@@ -6,14 +6,11 @@
  * Return: Always 0.
  */
 
-void print_numbers(void);
+void print_numbers(void)
 {
-	int a;
+	int i;
 
-	for (a = 0; a < 9; a++)
-	{
-		_putchar(a);
-	}
+	for (i = 0; i <= 9; i++)
+		_putchar(i + '0');
 	_putchar('\n');
-	return (0);
 }
