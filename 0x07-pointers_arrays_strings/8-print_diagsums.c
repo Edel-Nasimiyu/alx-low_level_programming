@@ -9,17 +9,12 @@
 
 void print_diagsums(int *a, int size)
 {
-	int ascedent, descendet, i, sumAscedent, sumDescedent;
+	int i, n, total1 = 0, total2 = 0;
 
-	sumAscedent = sumDescedent = 0;
-	ascedent = 0;
-	descendet = size - 1;
-	for (i = 0; i < size; i++)
-	{
-		sumAscedent += *(a + i * size + ascedent);
-		sumDescedent += *(a + i * size + descendet);
-		ascedent += 1;
-		descendet -= 1;
-	}
-	printf("%d, %d\n", sumAscedent, sumDescedent);
+	for (i = 0; i <= (size * size); i = i + size + 1)
+		total1 = total1 + a[i];
+
+	for (n = size - 1; n <= (size * size) - size; n = n + size - 1)
+		total2 = total2 + a[n];
+	printf("%d, %d\n", total1, total2);
 }
