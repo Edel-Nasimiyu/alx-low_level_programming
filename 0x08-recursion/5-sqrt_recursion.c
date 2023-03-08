@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * sqrt_check - checks for the square root of c
  * @g:guess at sqrt
