@@ -1,1 +1,6 @@
-VimCrypt~03!Ìé,‰Æß€:kÌú÷Ä±0Â±‹`±7¨/ÖægC{™­_xÔ{—O³Ï#J&–¬út•ÚmÂimoúœj{np–Ó„Hñ<”°Áø±äÀ¥°ÃŠ9&§
+#ifndef MAIN_H
+#define MAIN_H
+
+int _putchar(char c);
+
+#endif  
